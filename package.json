@@ -5,6 +5,8 @@
   "homepage": "https://mateuszdziuba.github.io/form",
   "dependencies": {
     "@material-ui/core": "^1.3.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-loader": "^2.0.0",

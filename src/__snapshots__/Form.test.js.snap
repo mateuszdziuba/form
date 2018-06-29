@@ -1,0 +1,519 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Form component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Form />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Sign up
+</h1>,
+        <TextField
+          error={false}
+          fullWidth={true}
+          helperText=" "
+          label="Your Name"
+          name="yourName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          value=""
+/>,
+        <TextField
+          error={false}
+          fullWidth={true}
+          helperText=" "
+          label="Surname"
+          name="surname"
+          onBlur={[Function]}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          value=""
+/>,
+        <TextField
+          error={false}
+          fullWidth={true}
+          helperText=" "
+          label="Username"
+          name="username"
+          onBlur={[Function]}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          value=""
+/>,
+        <TextField
+          error={false}
+          fullWidth={true}
+          helperText=" "
+          label="E-mail address"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          type="email"
+          value=""
+/>,
+        <TextField
+          error={false}
+          fullWidth={true}
+          helperText=" "
+          label="Password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          type="password"
+          value=""
+/>,
+        <WithStyles(Button)
+          color="primary"
+          onClick={[Function]}
+          style={
+                    Object {
+                              "alignSelf": "center",
+                              "borderRadius": "24px",
+                              "fontFamily": "Roboto",
+                              "fontSize": "22px",
+                              "fontWeight": "500",
+                              "lineHeight": "30px",
+                              "marginTop": "15px",
+                              "minWidth": "230px",
+                              "padding": "15px 30px",
+                              "width": "50%",
+                            }
+          }
+          variant="raised"
+>
+          submit
+</WithStyles(Button)>,
+      ],
+      "style": Object {
+        "border": "1px solid #eef3f6",
+        "boxShadow": "0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)",
+        "fontSize": "15px",
+        "marginTop": "20px",
+        "maxWidth": "900px",
+        "padding": "50px 80px",
+        "width": "50%",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sign up",
+        },
+        "ref": null,
+        "rendered": "Sign up",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "error": false,
+          "fullWidth": true,
+          "helperText": " ",
+          "label": "Your Name",
+          "name": "yourName",
+          "onBlur": [Function],
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "error": false,
+          "fullWidth": true,
+          "helperText": " ",
+          "label": "Surname",
+          "name": "surname",
+          "onBlur": [Function],
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "error": false,
+          "fullWidth": true,
+          "helperText": " ",
+          "label": "Username",
+          "name": "username",
+          "onBlur": [Function],
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "error": false,
+          "fullWidth": true,
+          "helperText": " ",
+          "label": "E-mail address",
+          "name": "email",
+          "onBlur": [Function],
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "type": "email",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "error": false,
+          "fullWidth": true,
+          "helperText": " ",
+          "label": "Password",
+          "name": "password",
+          "onBlur": [Function],
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "type": "password",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "submit",
+          "color": "primary",
+          "onClick": [Function],
+          "style": Object {
+            "alignSelf": "center",
+            "borderRadius": "24px",
+            "fontFamily": "Roboto",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "30px",
+            "marginTop": "15px",
+            "minWidth": "230px",
+            "padding": "15px 30px",
+            "width": "50%",
+          },
+          "variant": "raised",
+        },
+        "ref": null,
+        "rendered": "submit",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Sign up
+</h1>,
+          <TextField
+            error={false}
+            fullWidth={true}
+            helperText=" "
+            label="Your Name"
+            name="yourName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            value=""
+/>,
+          <TextField
+            error={false}
+            fullWidth={true}
+            helperText=" "
+            label="Surname"
+            name="surname"
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            value=""
+/>,
+          <TextField
+            error={false}
+            fullWidth={true}
+            helperText=" "
+            label="Username"
+            name="username"
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            value=""
+/>,
+          <TextField
+            error={false}
+            fullWidth={true}
+            helperText=" "
+            label="E-mail address"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            type="email"
+            value=""
+/>,
+          <TextField
+            error={false}
+            fullWidth={true}
+            helperText=" "
+            label="Password"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            type="password"
+            value=""
+/>,
+          <WithStyles(Button)
+            color="primary"
+            onClick={[Function]}
+            style={
+                        Object {
+                                    "alignSelf": "center",
+                                    "borderRadius": "24px",
+                                    "fontFamily": "Roboto",
+                                    "fontSize": "22px",
+                                    "fontWeight": "500",
+                                    "lineHeight": "30px",
+                                    "marginTop": "15px",
+                                    "minWidth": "230px",
+                                    "padding": "15px 30px",
+                                    "width": "50%",
+                                  }
+            }
+            variant="raised"
+>
+            submit
+</WithStyles(Button)>,
+        ],
+        "style": Object {
+          "border": "1px solid #eef3f6",
+          "boxShadow": "0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)",
+          "fontSize": "15px",
+          "marginTop": "20px",
+          "maxWidth": "900px",
+          "padding": "50px 80px",
+          "width": "50%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sign up",
+          },
+          "ref": null,
+          "rendered": "Sign up",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "error": false,
+            "fullWidth": true,
+            "helperText": " ",
+            "label": "Your Name",
+            "name": "yourName",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "error": false,
+            "fullWidth": true,
+            "helperText": " ",
+            "label": "Surname",
+            "name": "surname",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "error": false,
+            "fullWidth": true,
+            "helperText": " ",
+            "label": "Username",
+            "name": "username",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "error": false,
+            "fullWidth": true,
+            "helperText": " ",
+            "label": "E-mail address",
+            "name": "email",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "type": "email",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "error": false,
+            "fullWidth": true,
+            "helperText": " ",
+            "label": "Password",
+            "name": "password",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "type": "password",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "submit",
+            "color": "primary",
+            "onClick": [Function],
+            "style": Object {
+              "alignSelf": "center",
+              "borderRadius": "24px",
+              "fontFamily": "Roboto",
+              "fontSize": "22px",
+              "fontWeight": "500",
+              "lineHeight": "30px",
+              "marginTop": "15px",
+              "minWidth": "230px",
+              "padding": "15px 30px",
+              "width": "50%",
+            },
+            "variant": "raised",
+          },
+          "ref": null,
+          "rendered": "submit",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
