@@ -8,7 +8,7 @@ describe('validateEmpty', () => {
       error: 'This field is required',
     };
     expect(validators.validateEmpty(text)).toEqual(expectedResult);
-  })
+  });
   it('should validate non empty field', () => {
     const text = 'testing';
     const expectedResult = {
@@ -16,8 +16,8 @@ describe('validateEmpty', () => {
       error: '',
     };
     expect(validators.validateEmpty(text)).toEqual(expectedResult);
-  })
-})
+  });
+});
 
 describe('validateUsername', () => {
   it('should return error if username is too short', () => {
@@ -27,7 +27,7 @@ describe('validateUsername', () => {
       error: 'Username must be at least 5 characters long',
     };
     expect(validators.validateUsername(text)).toEqual(expectedResult);
-  })
+  });
   it('should validate proper username', () => {
     const text = 'Bronek';
     const expectedResult = {
@@ -35,8 +35,8 @@ describe('validateUsername', () => {
       error: '',
     };
     expect(validators.validateUsername(text)).toEqual(expectedResult);
-  })
-})
+  });
+});
 
 describe('validateEmail', () => {
   it('it should return error if email format is wrong', () => {
@@ -46,7 +46,7 @@ describe('validateEmail', () => {
       error: 'Email address is incorrect',
     };
     expect(validators.validateEmail(text)).toEqual(expectedResult);
-  })
+  });
   it('should validate right email address', () => {
     const text = 'poczta@buziaczek.pl';
     const expectedResult = {
@@ -65,7 +65,7 @@ describe('validatePassword', () => {
       error: 'Password must be at least 6 characters long',
     };
     expect(validators.validatePassword(text)).toEqual(expectedResult);
-  })
+  });
   it('should validate proper password', () => {
     const text = 'test123';
     const expectedResult = {
