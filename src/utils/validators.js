@@ -41,7 +41,7 @@ export function validatePassword(value) {
 }
 
 export function validateUsername(value) {
-  if (value.length < 6 && value.length > 0) {
+  if (value.length < 5 && value.length > 0) {
     return {
       valid: false,
       error: 'Username must be at least 5 characters long',
