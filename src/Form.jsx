@@ -135,7 +135,10 @@ class Form extends React.Component {
       this.setState(
         initialState,
       );
-      this.props.onChange(initialState.values);
+      const fields = {
+        yourName: '', surname: '', username: '', email: '', password: '',
+      };
+      this.props.onChange(fields);
     }
   };
 
