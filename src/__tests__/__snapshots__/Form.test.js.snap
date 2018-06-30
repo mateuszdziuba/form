@@ -1,10 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`expect to render Form component 1`] = `
+exports[`Form: expect to render Form component 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Form />,
+  Symbol(enzyme.__unrendered__): <Form
+    onChange={[Function]}
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -25,6 +27,7 @@ ShallowWrapper {
           error={false}
           fullWidth={true}
           helperText=" "
+          id="yourName"
           label="Your Name"
           name="yourName"
           onBlur={[Function]}
@@ -37,6 +40,7 @@ ShallowWrapper {
           error={false}
           fullWidth={true}
           helperText=" "
+          id="surname"
           label="Surname"
           name="surname"
           onBlur={[Function]}
@@ -49,6 +53,7 @@ ShallowWrapper {
           error={false}
           fullWidth={true}
           helperText=" "
+          id="username"
           label="Username"
           name="username"
           onBlur={[Function]}
@@ -61,6 +66,7 @@ ShallowWrapper {
           error={false}
           fullWidth={true}
           helperText=" "
+          id="email"
           label="E-mail address"
           name="email"
           onBlur={[Function]}
@@ -74,6 +80,7 @@ ShallowWrapper {
           error={false}
           fullWidth={true}
           helperText=" "
+          id="password"
           label="Password"
           name="password"
           onBlur={[Function]}
@@ -85,6 +92,7 @@ ShallowWrapper {
 />,
         <WithStyles(Button)
           color="primary"
+          id="button"
           onClick={[Function]}
           style={
                     Object {
@@ -136,6 +144,7 @@ ShallowWrapper {
           "error": false,
           "fullWidth": true,
           "helperText": " ",
+          "id": "yourName",
           "label": "Your Name",
           "name": "yourName",
           "onBlur": [Function],
@@ -156,6 +165,7 @@ ShallowWrapper {
           "error": false,
           "fullWidth": true,
           "helperText": " ",
+          "id": "surname",
           "label": "Surname",
           "name": "surname",
           "onBlur": [Function],
@@ -176,6 +186,7 @@ ShallowWrapper {
           "error": false,
           "fullWidth": true,
           "helperText": " ",
+          "id": "username",
           "label": "Username",
           "name": "username",
           "onBlur": [Function],
@@ -196,6 +207,7 @@ ShallowWrapper {
           "error": false,
           "fullWidth": true,
           "helperText": " ",
+          "id": "email",
           "label": "E-mail address",
           "name": "email",
           "onBlur": [Function],
@@ -217,6 +229,7 @@ ShallowWrapper {
           "error": false,
           "fullWidth": true,
           "helperText": " ",
+          "id": "password",
           "label": "Password",
           "name": "password",
           "onBlur": [Function],
@@ -237,6 +250,7 @@ ShallowWrapper {
         "props": Object {
           "children": "submit",
           "color": "primary",
+          "id": "button",
           "onClick": [Function],
           "style": Object {
             "alignSelf": "center",
@@ -273,6 +287,7 @@ ShallowWrapper {
             error={false}
             fullWidth={true}
             helperText=" "
+            id="yourName"
             label="Your Name"
             name="yourName"
             onBlur={[Function]}
@@ -285,6 +300,7 @@ ShallowWrapper {
             error={false}
             fullWidth={true}
             helperText=" "
+            id="surname"
             label="Surname"
             name="surname"
             onBlur={[Function]}
@@ -297,6 +313,7 @@ ShallowWrapper {
             error={false}
             fullWidth={true}
             helperText=" "
+            id="username"
             label="Username"
             name="username"
             onBlur={[Function]}
@@ -309,6 +326,7 @@ ShallowWrapper {
             error={false}
             fullWidth={true}
             helperText=" "
+            id="email"
             label="E-mail address"
             name="email"
             onBlur={[Function]}
@@ -322,6 +340,7 @@ ShallowWrapper {
             error={false}
             fullWidth={true}
             helperText=" "
+            id="password"
             label="Password"
             name="password"
             onBlur={[Function]}
@@ -333,6 +352,7 @@ ShallowWrapper {
 />,
           <WithStyles(Button)
             color="primary"
+            id="button"
             onClick={[Function]}
             style={
                         Object {
@@ -384,6 +404,7 @@ ShallowWrapper {
             "error": false,
             "fullWidth": true,
             "helperText": " ",
+            "id": "yourName",
             "label": "Your Name",
             "name": "yourName",
             "onBlur": [Function],
@@ -404,6 +425,7 @@ ShallowWrapper {
             "error": false,
             "fullWidth": true,
             "helperText": " ",
+            "id": "surname",
             "label": "Surname",
             "name": "surname",
             "onBlur": [Function],
@@ -424,6 +446,7 @@ ShallowWrapper {
             "error": false,
             "fullWidth": true,
             "helperText": " ",
+            "id": "username",
             "label": "Username",
             "name": "username",
             "onBlur": [Function],
@@ -444,6 +467,7 @@ ShallowWrapper {
             "error": false,
             "fullWidth": true,
             "helperText": " ",
+            "id": "email",
             "label": "E-mail address",
             "name": "email",
             "onBlur": [Function],
@@ -465,6 +489,7 @@ ShallowWrapper {
             "error": false,
             "fullWidth": true,
             "helperText": " ",
+            "id": "password",
             "label": "Password",
             "name": "password",
             "onBlur": [Function],
@@ -485,6 +510,7 @@ ShallowWrapper {
           "props": Object {
             "children": "submit",
             "color": "primary",
+            "id": "button",
             "onClick": [Function],
             "style": Object {
               "alignSelf": "center",

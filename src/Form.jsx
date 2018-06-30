@@ -90,7 +90,7 @@ class Form extends React.Component {
     }));
   };
 
-  validateField = (e, validators) => {
+  handleBlur = (e, validators) => {
     const { name, value } = e.target;
     let valid;
     let error;
@@ -112,7 +112,7 @@ class Form extends React.Component {
   };
 
   onSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     let valid;
     let error;
     Object.keys(this.state).forEach((field) => {
@@ -154,36 +154,40 @@ class Form extends React.Component {
       <FormControl style={formStyle}>
         <h1>Sign up</h1>
         <TextField
+          id="yourName"
           name="yourName"
           label="Your Name"
           value={yourName.value}
           onChange={e => this.handleChange(e, [validateEmpty])}
           error={yourName.valid === false}
           helperText={yourName.valid !== false ? ' ' : yourName.error}
-          onBlur={e => this.validateField(e, [validateEmpty])}
+          onBlur={e => this.handleBlur(e, [validateEmpty])}
           fullWidth
         />
         <TextField
+          id="surname"
           name="surname"
           label="Surname"
           value={surname.value}
           onChange={e => this.handleChange(e, [validateEmpty])}
           error={surname.valid === false}
           helperText={surname.valid !== false ? ' ' : surname.error}
-          onBlur={e => this.validateField(e, [validateEmpty])}
+          onBlur={e => this.handleBlur(e, [validateEmpty])}
           fullWidth
         />
         <TextField
+          id="username"
           name="username"
           label="Username"
           value={username.value}
           onChange={e => this.handleChange(e, [validateEmpty, validateUsername])}
           error={username.valid === false}
           helperText={username.valid !== false ? ' ' : username.error}
-          onBlur={e => this.validateField(e, [validateEmpty, validateUsername])}
+          onBlur={e => this.handleBlur(e, [validateEmpty, validateUsername])}
           fullWidth
         />
         <TextField
+          id="email"
           name="email"
           label="E-mail address"
           type="email"
@@ -191,10 +195,11 @@ class Form extends React.Component {
           onChange={e => this.handleChange(e, [validateEmpty, validateEmail])}
           error={email.valid === false}
           helperText={email.valid !== false ? ' ' : email.error}
-          onBlur={e => this.validateField(e, [validateEmpty, validateEmail])}
+          onBlur={e => this.handleBlur(e, [validateEmpty, validateEmail])}
           fullWidth
         />
         <TextField
+          id="password"
           name="password"
           label="Password"
           type="password"
@@ -202,10 +207,11 @@ class Form extends React.Component {
           onChange={e => this.handleChange(e, [validateEmpty, validatePassword])}
           error={password.valid === false}
           helperText={password.valid !== false ? ' ' : password.error}
-          onBlur={e => this.validateField(e, [validateEmpty, validatePassword])}
+          onBlur={e => this.handleBlur(e, [validateEmpty, validatePassword])}
           fullWidth
         />
         <Button
+          id="button"
           onClick={e => this.onSubmit(e)}
           variant="raised"
           color="primary"

@@ -40,3 +40,7 @@ h1 {
 label {
   z-index: 1 !important;
 }
+
+input {
+  font-family: 'Lato' !important;
+}

@@ -1,4 +1,4 @@
-import * as validators from './validators';
+import * as validators from '../utils/validators';
 
 describe('validateEmpty', () => {
   it('should mark field as empty', () => {
